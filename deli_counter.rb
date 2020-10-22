@@ -9,5 +9,5 @@ def line(array)
       spot = array.index(customer)
       p "The line is currently #{spot + 1}. #{customer}"
     end
-
+  end
 end

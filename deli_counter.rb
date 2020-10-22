@@ -13,3 +13,5 @@ def line(array)
     p "#{message}"
   end
 end
+
+line(katz_deli)

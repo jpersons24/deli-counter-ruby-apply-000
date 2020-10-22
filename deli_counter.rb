@@ -4,14 +4,14 @@ katz_deli = ["Joe", "James", "Matt", "Susan", "Debbie"]
 
 def line(array)
   if array.length == 0
-    p "The line is currently empty."
+    puts "The line is currently empty."
   else
     message = "The line is currently"
 
     array.each_with_index do |value, index|
       message += " #{index.to_i+1}. #{value}"
     end
-    p "#{message}"
+    puts "#{message}"
   end
 end
 
@@ -20,16 +20,16 @@ end
 
 def take_a_number(array, name)
   array << name
-  p "Hi #{name}, you are #{array.length} in line."
+  puts "Hi #{name}, you are #{array.length} in line."
 end
 
 # take_a_number(katz_deli, "Brynn")
 
 def now_serving(array)
   if array.length == 0
-    p "There is nobody waiting to be served."
+    puts "There is nobody waiting to be served."
   else
-    p "Currently serving #{array.shift}."
+    puts "Currently serving #{array.shift}."
   end
 end
 

@@ -11,3 +11,5 @@ def line(array)
     end
   end
 end
+
+line(katz_deli)

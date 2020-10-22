@@ -2,13 +2,13 @@
 katz_deli = []
 
 
-def line(katz_deli)
-  if katz_deli.length == 0
+def line(array)
+  if array.length == 0
     p "The line is currently empty."
   else
     message = "The line is currently"
 
-    katz_deli.each_with_index do |value, index|
+    array.each_with_index do |value, index|
       message += " #{index.to_i+1}. #{value}"
     end
     p "#{message}"

@@ -22,3 +22,11 @@ def take_a_number(array, name)
   array << name
   p "Hi #{name}, you are #{array.length} in line."
 end
+
+def now_serving(array)
+  if array.length == 0
+    p "There is nobody waiting to be served."
+  else
+    p "Currently serving #{array.shift}."
+  end
+end

@@ -16,3 +16,9 @@ def line(array)
 end
 
 # line(katz_deli)
+
+
+def take_a_number(array, name)
+  array << name
+  p "Hi #{name}, you are #{array.length} in line."
+end

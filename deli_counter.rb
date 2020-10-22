@@ -1,4 +1,4 @@
-katz_deli = []
+katz_deli = ["Joe", "James", "Matt", "Susan", "Debbie"]
 
 
 def line(katz_deli)

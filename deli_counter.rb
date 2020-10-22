@@ -1,4 +1,5 @@
-katz_deli = ["Joe", "James", "Matt", "Susan", "Debbie"]
+# katz_deli = ["Joe", "James", "Matt", "Susan", "Debbie"]
+katz_deli = []
 
 
 def line(katz_deli)
@@ -14,4 +15,4 @@ def line(katz_deli)
   end
 end
 
-line(katz_deli)
+# line(katz_deli)

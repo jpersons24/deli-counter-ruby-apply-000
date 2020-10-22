@@ -15,7 +15,7 @@ def line(array)
   end
 end
 
-line(katz_deli)
+# line(katz_deli)
 
 
 def take_a_number(array, name)
@@ -23,7 +23,7 @@ def take_a_number(array, name)
   p "Hi #{name}, you are #{array.length} in line."
 end
 
-take_a_number(katz_deli, "Brynn")
+# take_a_number(katz_deli, "Brynn")
 
 def now_serving(array)
   if array.length == 0
@@ -33,4 +33,4 @@ def now_serving(array)
   end
 end
 
-now_serving(katz_deli)
+# now_serving(katz_deli)

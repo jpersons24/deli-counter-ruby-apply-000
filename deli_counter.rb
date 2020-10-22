@@ -7,7 +7,7 @@ def line(array)
       p "The line is currently empty."
     elsif
       spot = array.index(customer)
-      p "The line is currently #{}"
+      p "The line is currently #{spot + 1}. #{customer}"
     end
 
 end

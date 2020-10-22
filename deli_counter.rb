@@ -20,7 +20,7 @@ end
 
 def take_a_number(array, name)
   array << name
-  puts "Hi #{name}, you are #{array.length} in line."
+  puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
 # take_a_number(katz_deli, "Brynn")
